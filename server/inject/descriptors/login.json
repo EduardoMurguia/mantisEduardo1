@@ -33,7 +33,7 @@
         "type": "none"
       }
     },
-    "login": {
+    "submit": {
       "type": "action",
       "selector": ".button",
       "control": "action.button"
