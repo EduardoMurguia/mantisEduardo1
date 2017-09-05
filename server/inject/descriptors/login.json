@@ -40,10 +40,10 @@
       "selector": ".button",
       "control": "action.button"
     },
-    "islogin": {
-      "type": "identifier",
+    "isLogin": {
+      "type": "string",
       "selector": ".form-title",
-      "control": "exists",
+      "control": "exits",
       "selectContains": "Login"
     }
   },
