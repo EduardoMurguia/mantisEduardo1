@@ -11,7 +11,8 @@
           "submit"
         ]
       },
-      "selector": "[name=\"username\"]"
+      "selector": "[name=\"username\"]",
+      "control": "text"
     },
     "password": {
       "type": "string",
@@ -31,17 +32,10 @@
         "type": "none"
       }
     },
-    "submit": {
+    "login": {
       "type": "action",
-      "parameters": {
-        "username": {
-          "type": "string"
-        },
-        "password": {
-          "type": "string"
-        }
-      },
-      "selector": ".button"
+      "selector": ".button",
+      "control": "action.button"
     }
   },
   "connect": []
