@@ -56,7 +56,7 @@
         "isLogin"
       ],
       "screens": [
-        "login"
+        "blank"
       ],
       "model": "myview"
     }
