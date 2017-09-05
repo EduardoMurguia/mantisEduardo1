@@ -53,10 +53,13 @@
         "isLogin",
         "isLogin",
         "isLogin",
+        "isLogin",
+        "isLogin",
+        "isLogin",
         "isLogin"
       ],
       "screens": [
-        "blank"
+        "login"
       ],
       "model": "myview"
     }
