@@ -41,7 +41,7 @@
       "control": "action.button"
     },
     "isLogin": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".form-title",
       "control": "exits",
       "selectContains": "Login"
