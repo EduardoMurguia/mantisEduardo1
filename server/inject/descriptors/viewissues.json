@@ -9,18 +9,21 @@
         "properties": {
           "id": {
             "type": "string",
-            "selector": "body",
-            "control": "property.innerText"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 3
           },
           "severity": {
             "type": "string",
-            "selector": "body",
-            "control": "property.innerText"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 7
           },
           "summary": {
             "type": "string",
-            "selector": "body",
-            "control": "property.innerText"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 10
           }
         }
       }
