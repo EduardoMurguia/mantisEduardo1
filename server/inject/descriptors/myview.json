@@ -52,7 +52,7 @@
     "isMyView": {
       "type": "identifier",
       "selector": ".subtle[href]",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "Assigned to Me (Unresolved)"
     }
   },
