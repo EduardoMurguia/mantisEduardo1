@@ -23,7 +23,8 @@
           "submit"
         ]
       },
-      "selector": "[name=\"password\"]"
+      "selector": "[name=\"password\"]",
+      "control": "text"
     },
     "errorMessage": {
       "type": "string",
