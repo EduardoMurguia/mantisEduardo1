@@ -50,20 +50,9 @@
   "connect": [
     {
       "match": [
-        "isLogin",
-        "isLogin",
-        "isLogin",
-        "isLogin",
-        "isLogin",
-        "isLogin",
-        "isLogin",
-        "isLogin",
         "isLogin"
       ],
-      "screens": [
-        "login"
-      ],
-      "model": "myview"
+      "action": "submit"
     }
   ]
 }
