@@ -78,9 +78,8 @@
       }
     }
   },
-  "viewissues": {
+  "myview": {
     "type": "object",
-    "comment": "issueslist",
     "properties": {
       "issueslist": {
         "type": "array",
