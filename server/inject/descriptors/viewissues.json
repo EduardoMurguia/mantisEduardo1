@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "issuelist": {
+      "type": "array",
+      "selectorAll": "#buglist",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          },
+          "severity": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          },
+          "summary": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          }
+        }
+      }
+    }
+  },
+  "connect": []
+}
