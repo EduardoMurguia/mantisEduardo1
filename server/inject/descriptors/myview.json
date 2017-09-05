@@ -2,16 +2,16 @@
   "type": "object",
   "comment": "issueslist",
   "properties": {
-    "isMyView": {
-      "type": "identifier",
-      "selector": ".subtle[href]",
-      "control": "exists",
-      "selectContains": "Assigned to Me (Unresolved)"
-    },
     "viewIssuesLink": {
       "type": "action",
       "selector": ".subtle",
       "control": "action.link"
+    },
+    "ismyview": {
+      "type": "identifier",
+      "selector": ".subtle[href]",
+      "control": "exists",
+      "selectContains": "Assigned to Me (Unresolved)"
     }
   },
   "connect": [
