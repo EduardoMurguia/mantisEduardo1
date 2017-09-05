@@ -14,5 +14,13 @@
       "control": "action.link"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isViewissue",
+        "isViewissue"
+      ],
+      "action": "viewIssuesLink"
+    }
+  ]
 }
