@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "mantiseduardo1",
-  "startScreen": "app.blank",
+  "startScreen": "app.login",
   "screens": [
     {
       "id": "blank",

@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "ccdc2ee4",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdjemurg"
+  "creatorId": "gdjemurg",
+  "id": "mantiseduardo1",
+  "previewImageURL": "/previews/ccdc2ee4-mantiseduardo1/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/EduardoMurguia/mantisEduardo1",
+  "creatorName": "Eduardo Murguia"
 }
