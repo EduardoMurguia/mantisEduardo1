@@ -12,30 +12,6 @@
       "type": "action",
       "selector": ".subtle",
       "control": "action.link"
-    },
-    "issuelist": {
-      "type": "array",
-      "selectorAll": ".subtle",
-      "items": {
-        "type": "object",
-        "properties": {
-          "ID": {
-            "type": "string",
-            "selector": ".subtle",
-            "control": "action.link"
-          },
-          "Severity": {
-            "type": "string",
-            "selector": ".subtle",
-            "control": "action.link"
-          },
-          "Summary": {
-            "type": "string",
-            "selector": ".subtle",
-            "control": "action.link"
-          }
-        }
-      }
     }
   },
   "connect": [
