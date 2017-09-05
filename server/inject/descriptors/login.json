@@ -32,7 +32,7 @@
       "update": {
         "type": "none"
       },
-      "control": "text",
+      "control": "property.innerText",
       "selector": "body > div:nth-child(3) > font"
     },
     "submit": {
