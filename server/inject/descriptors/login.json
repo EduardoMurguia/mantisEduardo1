@@ -40,7 +40,7 @@
       "selector": ".button",
       "control": "action.button"
     },
-    "isLogin": {
+    "islogin": {
       "type": "identifier",
       "selector": ".form-title",
       "control": "exists",
