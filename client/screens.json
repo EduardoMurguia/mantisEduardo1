@@ -26,7 +26,10 @@
       "name": "Login",
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
-      "model": "login"
+      "model": "login",
+      "extraViews": [
+        "phone-landscape"
+      ]
     },
     {
       "id": "test",
