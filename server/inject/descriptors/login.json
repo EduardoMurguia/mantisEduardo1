@@ -51,7 +51,6 @@
     {
       "match": [
         "isLogin",
-        "isLogin",
         "isLogin"
       ],
       "screens": [
