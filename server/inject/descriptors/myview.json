@@ -51,8 +51,9 @@
     },
     "isMyView": {
       "type": "identifier",
-      "selector": ".form-title",
-      "control": "property.innerText"
+      "selector": ".subtle[href]",
+      "control": "property.innerText",
+      "selectContains": "Assigned to Me (Unresolved)"
     }
   },
   "connect": []
