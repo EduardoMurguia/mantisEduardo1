@@ -52,7 +52,9 @@
       "match": [
         "isLogin"
       ],
-      "action": "submit"
+      "screens": [
+        "login"
+      ]
     }
   ]
 }
