@@ -47,5 +47,15 @@
       "selectContains": "Login"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLogin",
+        "isLogin"
+      ],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
