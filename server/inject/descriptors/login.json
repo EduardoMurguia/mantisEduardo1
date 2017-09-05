@@ -51,11 +51,14 @@
     {
       "match": [
         "isLogin",
+        "isLogin",
+        "isLogin",
         "isLogin"
       ],
       "screens": [
         "login"
-      ]
+      ],
+      "model": "myview"
     }
   ]
 }
