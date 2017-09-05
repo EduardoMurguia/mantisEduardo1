@@ -18,7 +18,8 @@
     {
       "match": [
         "isViewissue",
-        "isViewissue"
+        "isViewissue",
+        "isMyView"
       ],
       "action": "viewIssuesLink"
     }
