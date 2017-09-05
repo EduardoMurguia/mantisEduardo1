@@ -21,7 +21,8 @@
         "isViewissue",
         "isMyView"
       ],
-      "action": "viewIssuesLink"
+      "action": "viewIssuesLink",
+      "model": "viewissues"
     }
   ]
 }
