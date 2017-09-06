@@ -11,13 +11,17 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "#buglist tr[bgcolor]",
+            "selectIndex": 3
           },
           "summary": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "#buglist tr[bgcolor]",
+            "selectIndex": 10
           },
           "status": {
             "type": "string",
