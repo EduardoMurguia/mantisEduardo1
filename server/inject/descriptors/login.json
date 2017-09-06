@@ -14,7 +14,9 @@
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "[name=\"password\"]",
+      "control": "text"
     },
     "error": {
       "type": "string",
