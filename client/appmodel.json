@@ -1,1 +1,20 @@
-{}
+{
+  "login": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "user": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "error": {
+        "type": "string"
+      },
+      "submit": {
+        "type": "action"
+      }
+    }
+  }
+}
