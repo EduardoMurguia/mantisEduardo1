@@ -1,14 +1,7 @@
 {
   "type": "object",
   "comment": "issueslist",
-  "properties": {
-    "isViewIssues": {
-      "type": "identifier",
-      "selector": ".floatleft",
-      "control": "exits",
-      "selectContains": "Viewing Issues"
-    }
-  },
+  "properties": {},
   "connect": [],
   "selector": "span",
   "selectContains": "Viewing Issues"
