@@ -1,5 +1,26 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "user": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "password": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "error": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "submit": {
+      "type": "action",
+      "selector": "body",
+      "control": "property.innerText"
+    }
+  },
   "connect": []
 }
