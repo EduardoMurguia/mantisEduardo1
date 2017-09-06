@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "mantiseduardo1",
-  "startScreen": "app.report",
+  "startScreen": "app.login",
   "screens": [
     {
       "id": "menu",
