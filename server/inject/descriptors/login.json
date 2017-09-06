@@ -23,7 +23,8 @@
       "update": {
         "type": "none"
       },
-      "selector": "body > div:nth-child(3) > font"
+      "selector": "body > div:nth-child(3) > font",
+      "control": "property.innerHTML"
     },
     "submit": {
       "type": "action"
