@@ -51,7 +51,7 @@
     },
     "isViewIssues": {
       "type": "identifier",
-      "selector": "a",
+      "selector": "span",
       "control": "action.link"
     }
   },
