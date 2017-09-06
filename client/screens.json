@@ -4,13 +4,6 @@
   "startScreen": "app.login",
   "screens": [
     {
-      "id": "blank",
-      "name": "BLANK",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank",
-      "model": "login"
-    },
-    {
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
