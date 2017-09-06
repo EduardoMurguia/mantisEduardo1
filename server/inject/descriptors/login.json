@@ -41,9 +41,11 @@
   "connect": [
     {
       "match": [],
+      "event": "test",
       "screens": [
-        "viewissues"
-      ]
+        "login"
+      ],
+      "model": "login"
     }
   ]
 }
