@@ -9,7 +9,7 @@
     },
     "redirect": {
       "type": "action",
-      "selector": "a",
+      "selector": "body > table.width100 > tbody > tr > td:nth-child(1) > a:nth-child(2)",
       "control": "action.link",
       "selectContains": "View Issues"
     }
