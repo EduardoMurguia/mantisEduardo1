@@ -27,7 +27,9 @@
       "control": "property.innerHTML"
     },
     "submit": {
-      "type": "action"
+      "type": "action",
+      "selector": ".button",
+      "control": "action.button"
     },
     "isLogin": {
       "type": "boolean",
