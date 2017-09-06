@@ -32,20 +32,11 @@
       "control": "action.button"
     },
     "isLogin": {
-      "type": "boolean",
+      "type": "identifier",
       "selector": "body > div:nth-child(5) > form > table > tbody > tr:nth-child(1) > td",
       "control": "exists",
       "selectContains": "Login"
     }
   },
-  "connect": [
-    {
-      "match": [],
-      "event": "test",
-      "screens": [
-        "login"
-      ],
-      "model": "login"
-    }
-  ]
+  "connect": []
 }
