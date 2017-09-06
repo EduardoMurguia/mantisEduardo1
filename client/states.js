@@ -33,21 +33,21 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.viewissues', {
-        views: {
-            app: {
-                controller: 'app_viewissues',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.viewissues');
-                }
-            }
-        }
     }).state('app.report', {
         views: {
             app: {
                 controller: 'app_report',
                 templateProvider: function (app) {
                     return app.templateProvider('app.report');
+                }
+            }
+        }
+    }).state('app.viewissues', {
+        views: {
+            app: {
+                controller: 'app_viewissues',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.viewissues');
                 }
             }
         }

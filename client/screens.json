@@ -23,17 +23,17 @@
       "model": "login"
     },
     {
-      "id": "viewissues",
-      "name": "viewissues",
-      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
-      "sourceAppId": "universaltemplates",
-      "model": "login"
-    },
-    {
       "id": "report",
       "name": "report",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "viewissues",
+      "name": "viewissues",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "viewissues"
     }
   ],
   "sourceAppId": "_blank",
