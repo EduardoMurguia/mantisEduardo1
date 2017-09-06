@@ -1,7 +1,7 @@
 {
   "login": {
     "type": "object",
-    "comment": "",
+    "comment": "login",
     "properties": {
       "user": {
         "type": "string"
