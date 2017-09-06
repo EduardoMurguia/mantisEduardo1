@@ -6,7 +6,9 @@
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "[name=\"username\"]",
+      "control": "text"
     },
     "password": {
       "type": "string",
