@@ -47,7 +47,8 @@
       },
       "update": {
         "type": "none"
-      }
+      },
+      "selectorAll": "tr"
     },
     "isViewIssues": {
       "type": "identifier",
