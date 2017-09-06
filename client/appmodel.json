@@ -81,5 +81,13 @@
         }
       }
     }
+  },
+  "myView": {
+    "type": "object",
+    "properties": {
+      "test": {
+        "type": "action"
+      }
+    }
   }
 }

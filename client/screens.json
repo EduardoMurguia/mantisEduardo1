@@ -26,7 +26,8 @@
       "id": "report",
       "name": "report",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "myView"
     },
     {
       "id": "viewissues",
