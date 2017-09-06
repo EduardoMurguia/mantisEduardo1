@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isMyView": {
+      "type": "identifier",
+      "selector": "body > div:nth-child(5) > table.hide > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr:nth-child(1) > td > a",
+      "control": "exists",
+      "selectContains": "Assigned to Me (Unresolved)"
+    }
+  },
+  "connect": []
+}
