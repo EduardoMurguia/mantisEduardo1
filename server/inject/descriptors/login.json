@@ -43,7 +43,8 @@
       "match": [],
       "screens": [
         "viewissues"
-      ]
+      ],
+      "model": "login"
     }
   ]
 }
