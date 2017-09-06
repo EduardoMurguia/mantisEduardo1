@@ -19,15 +19,13 @@
       "id": "login",
       "name": "Login",
       "sourceScreenId": "app.login.loginconfident",
-      "sourceAppId": "universaltemplates",
-      "model": "login"
+      "sourceAppId": "universaltemplates"
     },
     {
       "id": "viewissues",
       "name": "viewissues",
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
-      "sourceAppId": "universaltemplates",
-      "model": "myview"
+      "sourceAppId": "universaltemplates"
     },
     {
       "id": "report",
