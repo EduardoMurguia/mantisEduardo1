@@ -6,7 +6,19 @@
       "selector": "body > div:nth-child(5) > table.hide > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr:nth-child(1) > td > a",
       "control": "exists",
       "selectContains": "Assigned to Me (Unresolved)"
+    },
+    "test": {
+      "type": "action",
+      "selector": "body > table.width100 > tbody > tr > td:nth-child(1) > a:nth-child(1)",
+      "control": "action.link"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isMyView"
+      ],
+      "action": "test"
+    }
+  ]
 }
