@@ -5,7 +5,8 @@
     "isViewIssues": {
       "type": "identifier",
       "selector": "span",
-      "control": "exits"
+      "control": "exits",
+      "selectContains": "Viewing Issues"
     }
   },
   "connect": [],
