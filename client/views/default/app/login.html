@@ -12,14 +12,14 @@
         <form>
             <div data-comp-id="div.2" style="width: 80%; margin: 2% 10%;">
                 <!--User Input-->
-                <div class="text-center assertive" data-comp-id="text.2"
-                    ng-bind="data.errorMessage" ng-show="data.errorMessage">Some text</div>
+                <div class="text-center assertive" data-comp-id="text.2" ng-bind="data.error"
+                    ng-show="data.errorMessage">Some text</div>
                 <div class="row" data-comp-id="row.2">
                     <div class="col" data-comp-id="column.2">
                         <label class="item item-input" data-comp-id="textInput.1"
                             style="border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(74, 129, 148, 0.298039); border-bottom-width: 1px; border-bottom-style: solid; margin: 0px;">
                             <i class="icon placeholder-icon ion-ios-person" style="font-size: 24px;"></i>
-                            <input ng-model="data.username" placeholder="Username" type="text">
+                            <input ng-model="data.user" placeholder="Username" type="text">
                         </label>
                         <label class="item item-input" data-comp-id="textInput.2"
                             style="border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(74, 129, 148, 0.298039); border-bottom-width: 1px; border-bottom-style: solid; margin: 0px;">
@@ -34,8 +34,8 @@
                 <div class="row" data-comp-id="row.3" style="margin: 5% 0%;">
                     <div class="col" data-comp-id="column.3">
                         <input class="button button-block button-energized" data-comp-id="button.1"
-                            ng-click="app.action('login', 'submit', this)"
-                            style="border-color: rgba(255, 255, 255, 0);" type="submit" value="Login">
+                            ng-click="app.go('app.login')" style="border-color: rgba(255, 255, 255, 0);"
+                            type="submit" value="Login">
                         <div class="row" data-comp-id="row.4" ng-click="loginViaTouch()">
                             <div class="col text-center" data-comp-id="column.4"
                                 style="border-width: 1px; border-style: solid; border-color: #006BB6;">
