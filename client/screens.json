@@ -26,7 +26,8 @@
       "id": "viewissues",
       "name": "viewissues",
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
-      "sourceAppId": "universaltemplates"
+      "sourceAppId": "universaltemplates",
+      "model": "login"
     },
     {
       "id": "report",
