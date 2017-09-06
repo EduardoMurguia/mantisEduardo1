@@ -33,7 +33,7 @@
       "name": "viewissues",
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
       "sourceAppId": "universaltemplates",
-      "model": "viewissues"
+      "model": "login"
     }
   ],
   "sourceAppId": "_blank",
