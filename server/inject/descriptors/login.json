@@ -22,6 +22,12 @@
     },
     "submit": {
       "type": "action"
+    },
+    "isLogin": {
+      "type": "boolean",
+      "selector": "body > div:nth-child(5) > form > table > tbody > tr:nth-child(1) > td",
+      "control": "property.innerText",
+      "selectContains": "Login"
     }
   },
   "connect": []
