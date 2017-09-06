@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "mantiseduardo1",
-  "startScreen": "app.logincool",
+  "startScreen": null,
   "screens": [
     {
       "id": "menu",
@@ -34,13 +34,6 @@
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
       "sourceAppId": "universaltemplates",
       "model": "login"
-    },
-    {
-      "id": "logincool",
-      "name": "LoginCool",
-      "sourceScreenId": "app.login.logincool",
-      "sourceAppId": "universaltemplates",
-      "model": "logincool"
     }
   ],
   "sourceAppId": "_blank",
