@@ -42,7 +42,7 @@
     {
       "match": [],
       "screens": [
-        "viewissues"
+        "login"
       ],
       "model": "login"
     }
