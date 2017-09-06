@@ -22,7 +22,8 @@
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "body > div:nth-child(3) > font"
     },
     "submit": {
       "type": "action"
