@@ -23,6 +23,9 @@
       },
       "submit": {
         "type": "action"
+      },
+      "isLogin": {
+        "type": "boolean"
       }
     }
   },
