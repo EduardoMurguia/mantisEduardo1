@@ -29,7 +29,15 @@
       }
     }
   },
-  "viewissues": {
+  "myView": {
+    "type": "object",
+    "properties": {
+      "test": {
+        "type": "action"
+      }
+    }
+  },
+  "viewissueslist": {
     "type": "object",
     "comment": "issueslist",
     "properties": {
@@ -79,14 +87,6 @@
         "update": {
           "type": "none"
         }
-      }
-    }
-  },
-  "myView": {
-    "type": "object",
-    "properties": {
-      "test": {
-        "type": "action"
       }
     }
   }
