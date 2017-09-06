@@ -38,13 +38,5 @@
       "selectContains": "Login"
     }
   },
-  "connect": [
-    {
-      "match": [],
-      "screens": [
-        "login"
-      ],
-      "model": "login"
-    }
-  ]
+  "connect": []
 }
