@@ -13,12 +13,5 @@
       "control": "action.link"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isMyView"
-      ],
-      "action": "test"
-    }
-  ]
+  "connect": []
 }
