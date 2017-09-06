@@ -2,26 +2,6 @@
   "type": "object",
   "comment": "issueslist",
   "properties": {
-    "issueslist": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "#buglist tr[bgcolor]",
-            "selectIndex": 3
-          }
-        }
-      },
-      "update": {
-        "type": "none"
-      },
-      "selectorAll": "#buglist tr[bgcolor]"
-    },
     "isViewIssues": {
       "type": "identifier",
       "selector": "span",
