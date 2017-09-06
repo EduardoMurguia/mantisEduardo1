@@ -4,7 +4,7 @@
   "properties": {
     "isViewIssues": {
       "type": "identifier",
-      "selector": "span",
+      "selector": ".floatleft",
       "control": "exits",
       "selectContains": "Viewing Issues"
     }
