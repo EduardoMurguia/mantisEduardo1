@@ -23,13 +23,6 @@
       "model": "login"
     },
     {
-      "id": "test",
-      "name": "test",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "test"
-    },
-    {
       "id": "viewissues",
       "name": "viewissues",
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
